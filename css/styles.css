@@ -873,32 +873,3 @@
       transition: none !important;
     }
   }
-  /* =========================
-   Google Translate
-   ========================= */
-.translate {
-  margin-left: 12px;
-  display: flex;
-  align-items: center;
-}
-
-#google_translate_element select {
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 12px;
-  padding: 6px 10px;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-#google_translate_element option {
-  color: #000;
-}
-
-/* Móvil: lo bajamos un poco */
-@media (max-width: 920px) {
-  .translate {
-    margin-top: 10px;
-  }
-}
