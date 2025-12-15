@@ -873,3 +873,6 @@
       transition: none !important;
     }
   }
+  #inicio + .section {
+    border-top: none !important;
+  }  
